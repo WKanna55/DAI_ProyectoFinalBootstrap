@@ -41,35 +41,36 @@
             <div class="contenedor-100hv">
               <form id="regForm" action="">
 
-                <h1>Registro:</h1>
+                <h3 class="display-4">Registro</h3>
                 
                 <!-- One "tab" for each step in the form: -->
                 <div class="tab">
                   <p class="subtitulo-registro">DNI:</p>
-                  <p><input class="input-register" placeholder="DNI" oninput="this.className = 'input-register'"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="DNI" required=""></p>
                 </div>
                 
                 <div class="tab">
                   <p class="subtitulo-registro">Información Básica:</p class="subtitulo-registro">
-                  <p><input class="input-register" placeholder="Nombres" oninput="this.className = 'input-register'"></p>
-                  <p><input class="input-register" placeholder="Apellido Paterno" oninput="this.className = 'input-register'"></p>
-                  <p><input class="input-register" placeholder="Apellido Materno" oninput="this.className = 'input-register'"></p>
-                  <p><input class="input-register" placeholder="Correo electronico" oninput="this.className = 'input-register'"></p>
-                  <p><input class="input-register" placeholder="Teléfono" oninput="this.className = 'input-register'"></p>
-                  <p><input class="input-register" placeholder="Direccion" oninput="this.className = 'input-register'"></p>
-                  <p><input type="password" class="input-register" placeholder="Contraseña" oninput="this.className = 'input-register'"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Nombres"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Apellido Paterno"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Apellido Materno"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Correo electronico"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Teléfono"></p>
+                  <p><input class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Direccion"></p>
+                  <p><input type="password" class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Contraseña"></p>
+    
                 </div>
                 
                 
                 <div style="overflow:auto;">
                   <div style="float:right;">
-                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
-                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
+                    <button class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm" type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
+                    <button class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm" type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
                   </div>
                 </div>
 
-                <div class="text-center d-flex justify-content-between mt-4"><p>¿No tiene una cuenta? <a href="register.html" class="font-italic text-muted"> 
-                  <u>Registrate</u></a></p></div>
+                <div class="text-center d-flex justify-content-between mt-4"><p>¿Tienes cuenta? <a href="login.html" class="font-italic text-muted"> 
+                  <u>Inicia sesión</u></a></p></div>
                 
                 <!-- Indicadores de pasos: -->
                 <div style="text-align:center;margin-top:40px;">

@@ -200,12 +200,13 @@ Nueva seccion
 */
 
 /* Seccion: registro */
+
+
 /* Style the form */
 #regForm {
-    background-color: #ffffff;
     margin: 100px auto;
     padding: 40px;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
   }
   
@@ -255,10 +256,4 @@ Nueva seccion
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-}
-
-@media screen and (max-width: 767px) {
-    .contenedor-100hv{
-        min-height: 100vh;
-    }
 }
